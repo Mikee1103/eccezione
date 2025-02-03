@@ -9,6 +9,8 @@ public class TestPositivo {
             System.out.println("numero: " + numeroPositivo.getNumero());
         } catch (NegativeException e) {
             System.err.println("eccezione trovata: " + e.getMessage());
+        } catch (IntervalloException e) {
+            System.err.println("eccezione trovata: " + e.getMessage());
         }
     }
 }
