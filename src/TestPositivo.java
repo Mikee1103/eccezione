@@ -7,9 +7,7 @@ public class TestPositivo {
         try {
             NumeroPositivo numeroPositivo = new NumeroPositivo(num);
             System.out.println("numero: " + numeroPositivo.getNumero());
-        } catch (NegativeException e) {
-            System.err.println("eccezione trovata: " + e.getMessage());
-        } catch (IntervalloException e) {
+        } catch (EccezioneNumerica e){
             System.err.println("eccezione trovata: " + e.getMessage());
         }
     }

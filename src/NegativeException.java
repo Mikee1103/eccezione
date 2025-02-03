@@ -1,4 +1,4 @@
-public class NegativeException extends Exception {
+public class NegativeException extends EccezioneNumerica {
     public NegativeException(String messaggio) {
         super(messaggio);
     }
